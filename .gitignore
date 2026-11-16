@@ -1,5 +1,46 @@
-# Object file
-*.o
 
-# Ada Library Information
-*.ali
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.map
+*.eep
+
+# Build directories
+build/
+out/
+.cache/
+
+# Arduino temporary files
+*.ino.eep
+*.ino.hex
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows temporary files
+*.tmp
+*.temp
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.old
+*~
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local credentials
+secrets.h
+credentials.h
